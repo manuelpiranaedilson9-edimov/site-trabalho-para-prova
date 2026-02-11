@@ -115,5 +115,11 @@ img{
     font-style: italic;
 
 }
+.site{
+    background-color: aqua;
+    width: 100%;
+    height: 0 auto;
+    
+}
 
 }
