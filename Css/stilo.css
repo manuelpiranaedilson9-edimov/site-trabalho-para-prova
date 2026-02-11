@@ -1,0 +1,119 @@
+.site{
+    background-color: aqua;
+    width: 900pxpx;
+    height: 0 auto;
+    
+}
+.cabecalho{
+    background-color: yellow;
+   width: 0 auto;
+    height: 200px;
+    font-size: 25px;
+    font-style: italic;
+
+}
+.corpo{
+    background-color: green;
+     width: 100%;
+    height: 0 auto;
+    
+}
+.header{
+    color: white;
+    background-color: red;
+}
+.header p{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-style: italic;
+    
+}
+h3{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-style: italic;
+}
+.conteudo{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+ .box{
+    flex-basis:25% ;
+    width: 250px;
+    height: 400px;
+
+   
+}
+img{
+    height: 200px;
+    width: 250px;
+   
+}
+
+.corpo, .conteudo h4 p {
+ text-align: center;
+}
+
+
+
+.footer{
+   
+     background-color: black;
+     height: 65px;
+     position: fixed;
+     bottom: 0;
+     left: 0;
+     width: 100%;
+     margin-top: 10px;
+     
+
+     
+}
+.footer img{
+     flex-basis:25% ;
+    width: 35px;
+    height: 35px;
+   margin-top: 25px;
+   margin-left: 50px;
+}
+.footer ul{
+    list-style: none;
+    padding: 0 auto;
+    margin: 0 auto;
+    flex-direction: row;
+    display: flex;
+}
+.footer li{
+    margin-right: 20px;
+}
+
+
+
+
+
+/*css para telemovel*/
+
+@media only screen and (max-width:480px) {
+    .conteudo{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);  
+}
+
+img{
+    height: 190px;
+    width: 190px;
+   
+}
+.cabecalho{
+    background-color: yellow;
+   width: 0 auto;
+    height: 80px;
+    font-size: 25px;
+    font-style: italic;
+
+}
+
+}
