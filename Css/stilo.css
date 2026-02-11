@@ -96,15 +96,15 @@ img{
 
 /*css para telemovel*/
 
-@media only screen and (max-width:480px) {
+@media only screen and (max-width:440px) {
     .conteudo{
     display: grid;
     grid-template-columns: repeat(2, 1fr);  
 }
 
 img{
-    height: 100px;
-    width: 100px;
+    height: 90px;
+    width: 90px;
    
 }
 .cabecalho{
